@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
 
 :root {
   --primary-color: #ffd1dc;
@@ -18,7 +23,8 @@
 }
 
 body {
-  font-family: 'Jua', sans-serif;
+  font-family: 'Paperozi', sans-serif;
+  font-weight: 100;
   background-color: var(--bg-color);
   color: var(--text-color);
   display: flex;
@@ -88,7 +94,8 @@ textarea, input[type="number"], input[type="text"] {
   padding: 10px;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
-  font-family: 'Jua', sans-serif;
+  font-family: 'Paperozi', sans-serif;
+  font-weight: 100;
   font-size: 1.1rem;
   outline: none;
   transition: border-color 0.3s ease;
@@ -114,7 +121,8 @@ button {
   border-radius: 25px;
   padding: 12px 30px;
   font-size: 1.5rem;
-  font-family: 'Jua', sans-serif;
+  font-family: 'Paperozi', sans-serif;
+  font-weight: 100;
   cursor: pointer;
   box-shadow: 0 5px 0 var(--button-hover);
   transition: all 0.1s ease;
